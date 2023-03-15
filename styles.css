@@ -1,1 +1,82 @@
+.body {
+  font-family: 'nunito' , sans-serif;
+  margin: 0 10%;
+}
+/* Containers */
+.container {
+  border: 2px solid #212F3D;
+  padding: 10px;
+  margin: 10px auto;
+}
+.color-container {
+  width: 100%;
+}
+.color-panel {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+.font-container {
+  width: 100%;
+}
+.font-panel {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+}
+.font-label {
+  text-decoration: underline;
+  font-size: 25px;
+}
+/* Colors */
+.night-blue {
+  background-color: #1F618D;
+}
+.sharp-teal {
+  background-color: #148F77;
+}
+.cool-gray {
+  background-color: #5F6A6A;
+}
+.light-gray {
+  background-color: #D0D3D4;
+}
 
+/* Fonts and Styles*/
+.roboto-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+.nunito {
+  font-family: 'Nunito', sans-serif;
+}
+.archivo {
+  font-family:'Archivo', sans-serif;
+}
+.regular {
+  font-style:normal;
+}
+.italic {
+  font-style:italic;
+}
+.bold {
+  font-weight:700;
+}
+/* Text Styles */
+.text-panel h1 {
+  font-weight:700;
+  font-size: 26px;
+  font-family: 'roboto mono', monospace;
+}
+.text-panel h2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: 'nunito', sans-serif;
+}
+.text-panel p {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'nunito', sans-serif;
+}
